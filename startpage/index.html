@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>> welcome</title>
+    <link href="/css/start.css" rel="stylesheet">
+    <link rel="icon" type "image/x-icon" href="/assets/no_talk_fennec.ico">
+  </head>
+  <body onhashchange="ref()">
+    <div class="bg">
+      <img class="bg-img"> 
+    </div>
+    <div class="home">
+      <h2 id="tline">> welcome </h2>
+      <div id="main">
+        <p id="wel">i'm inside your walls</p>
+        <div id="wpb" style="display:none;">loading weather</div>
+        <p id="wl" style="display:none;"></p>
+        <form action="https://sx.catgirl.cloud/" method="post">
+          <input type="text" id="text-box" name="q" autofocus="" autocomplete="off" placeholder="browse the internet superhighway...">
+        </form>
+        <div class="tc">
+          <p id="time"></p>
+        </div>
+        <div class="sc">
+          <table>
+            <tr>
+              <th>socials</th>
+              <th>piracy</th>
+	      <th>consoom</th>
+	      <th>cool</th>
+            </tr>
+            <tr>
+              <td><a rel="noreferer" href="https://snug.moe">fedi</a></td>
+              <td><a rel="noreferer" href="https://1337x.to">1337x</a></td>
+              <td><a rel="noreferer" href="http://localhost:8097">jellyfin</a></td>
+              <td><a rel="noreferer" href="https://jellyfox.moe">my site :)</a></td>
+            </tr>
+            <tr>
+              <td><a rel="noreferer" href="https://lr.catgirl.cloud/">libreddit</a></td>
+              <td><a rel="noreferer" href="https://rarbg.to/">rarbg</a></td>
+              <td><a rel="noreferer" href="http://localhost:4533">navidrome</a></td>
+              <td><a rel="noreferer" href="http://vibb.ro">vib</a></td>
+            </tr>
+            <tr>
+              <td><a rel="noreferer" href="https://www.last.fm/user/jellyf0x">last.fm</a></td>
+              <td><a rel="noreferer" href="https://rutracker.org/">rutracker</a></td>
+              <td><a rel="noreferer" href="https://piped.kavin.rocks/feed">piped</a></td>
+              <td><a rel="noreferer" href="https://tacohitbox.com">tacohitbox</a></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><a href="https://anilist.co">anilist</a></td>
+              <td><a href="https://old.reddit.com/r/FREEMEDIAHECKYEAH/">fmhy</a></td>
+              <td><a href="https://kemono.party">kemono</a></td>
+              <td><a href="https://nixgoat.me/">mint's site</a></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="settings" style="display:none;">
+        <a href="#" class="irreg-link">< back</a>
+        <hr>
+        <h2 style="margin-bottom:7px !important;">settings</h2>
+        <p>hover over a setting for more information on them. settings are auto-saved. if changes still don't apply, <i>clear your cache</i>.</p>
+        <div class="set" title="The name displayed at the top.">
+          <label for="name">Name:</label>
+          <input name="name" id="name" placeholder="> welcome" oninput="save(this.id, this.value);"> 
+          <button onclick="document.getElementById('name').value='> welcome'">default</button>
+        </div>
+        <div class="set" title="Gets weather data automatically and displays it on the startpage.">
+          <label for="enwe">Enable Weather Data:</label>
+          <select name="enwe" id="enwe" oninput="save(this.id, this.value); ref();">
+            <option value="false">Disabled</option>
+            <option value="true">Enabled</option>
+          </select> 
+        </div>
+        <div id="weather-settings-container">
+          <div class="set" title="The city that weather is retrived from.">
+            <label for="wid"><a href="https://openweathermap.org/">OpenWeatherMap</a> ID:</label>
+            <input name="wid" id="wid" placeholder="5110629" oninput="save(this.id, this.value);">
+            <button onclick="document.getElementById('wid').value='5110629'">default</button>
+          </div>
+          <div class="set" title="Measurements for the weather report.">
+            <label for="wm">Weather Measurement: </label>
+            <select name="wm" id="wm" oninput="save(this.id, this.value);">
+              <option value="imperial">Imperial (Fahrenheit)</option>
+              <option value="metric">Metric (Celsius)</option>
+            </select>
+            <button onclick="document.getElementById('wm').value='imperial'">default</button>
+          </div>
+        </div>
+        <div class="set" title="Sets the background to this page.">
+          <label for="bg">Background: </label>
+          <select name="bg" id="bg" oninput="save(this.id, this.value); ref();">
+            <option value="black">Black Background</option>
+            <option value="randomFromWH">Random from Wallhaven.cc</option>
+          </select>
+          <button onclick="document.getElementById('bg').value='black'">default</button>
+        </div>
+        <div id="wh-container">
+          <div class="set" title="The search term on Wallhaven.cc">
+            <label for="wh">Wallhaven search term: </label>
+            <input name="wh" id="wh" placeholder="sky" oninput="save(this.id, this.value);">
+            <button onclick="document.getElementById('wh').value='sky'">default</button>
+          </div>
+          <div class="set" title="Every time the page loads, get a new wallpaper">
+            <label for="nw">Refresh wallpaper on start:</label>
+            <select name="nw" id="nw" oninput="save(this.id, this.value);">
+              <option value="true">Enabled</option>
+              <option value="false">Disabled</option>
+            </select>
+            <button onclick="document.getElementById('nw').value='true'">default</button>
+          </div>
+        </div><br>
+        <button onclick="window.open(window.location.href.split('#')[0], '_self')">apply</button>
+      </div><br>
+      <p class="footer"><a href="https://github.com/tacohitbox/personal-startpage">source code</a> <span          class="ns">- <a href="#settings">settings</a></span></p>
+    </div>
+    <script src="/js/load.js"></script>
+    <script src="/js/settings.js"></script>
+  </body>
+</html>
