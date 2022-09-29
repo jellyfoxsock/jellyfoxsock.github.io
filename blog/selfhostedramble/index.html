@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>jelly's hell site</title>
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="icon" type="image/x-icon" href="/assets/no_talk_fennec.ico">
+	</head>
+	<header>
+		<center><h1> jelly's hell site </h1> </center>
+		<center> <h2>professional dumbass</h2></center>
+		<center>	<a href=https://jellyfox.moe>home</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href=/about>about</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href=/contact>contact</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href=/blog>blog</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href=/donate>donate</a>
+		</center>
+
+	</header>
+	<hr>
+		<body>
+		<section class="section">
+			<div class="container">
+				
+<h1 class="title">
+  Rambling About Some Nice Self-Hosted Services
+</h1>
+<right> <p class="subtitle"><strong>Published 2022-05-27</strong></p><br> </right>
+<p>Oftentimes, you see people complaining about the quality of services offered by big corporations online. One of the most prevalent of these complaints is their servers, or rather their increasingly frequent downtime. Of course, no matter how good your server is, it will always need a wee bit of downtime, whether it be for maintenance, because the connection to it dropped, or whatever else. However, this situation, whilst understandable, is frustratingly frequent with services that many use for comfort - myself included. Such services include Discord, Spotify, Twitter - y'know. The usual suspects, really.</p>
+<p>So, as a bit of a follow-up to my <a href="/blog/whymakeawebsite">prior blog entry detailing why you should make your own website</a>, I'm going to have a bit of a ramble as to why you should give them all a two-finger salute and just do your own shit.</p>
+<p>&quot;But Jelly,&quot; I hear you exclaim from atop a three-necked goose, &quot;why would I give myself more work when the apps are right there?&quot;</p>
+<p>Well, see, that's the kicker - these don't <em>have</em> to be things that take more effort. Believe you me, if my dumb ass can get shit to work, there's a good 85% chance that you probably can, too, reader. As to why you would undertake the task at all... well, did you not read the first paragraph of this post? It's to mitigate as much of your own personal powerlessness in the event of a service going down as is possible, whilst also offering a few more benefits.</p>
+<p>For example, allow me to start with...</p>
+<h1 id="navidrome"><a href="https;//navidrome.org">Navidrome</a></h1>
+<p>Yes, I've <a href="/blog/movingday">mentioned this one before</a>, Navidrome! Navidrome is a self-hosted solution to Spotify, allowing you to access any music you store on a server from all of your devices. It utilises the Subsonic API, which means that countless apps can connect to it incredibly easily, transcodes files as they are played as to not use 111,000,000 GB of your data to play <a href="https://www.youtube.com/watch?v=LQUXuQ6Zd9w">War Pigs</a>, and allows for you to have a fuckin' huge library.</p>
+<p>Dog.</p>
+<p><img 
+    style="display: block;
+           margin-left: auto;  
+           margin-right: auto;   
+           width: 70%;"
+    src="/assets/articles/whyselfhost/library.png"
+    alt="The size of my music library. Quite large. 700+ GB."        
+    title="The size of my music library. Quite large. 700+ GB."> 
+</img>
+<br></p>
+<center>I mean *huuuuge.*</center>
+<br>
+<p>It's incredibly convenient if you're like me, and have a small horde of CDs you're sat on, but simultaneously, you live in the current year and don't fancy carrying a Discman with you everywhere you go. Just rip your CDs to your server's storage and be done with it. Likewise, if you have a large, already-digital music collection - also like me - you can just set up Navidrome to use that and be away.</p>
+<p>I've been using this one for the best part of five months now! And I can singlehandedly say that it is infinitely more reliable than Spotify in just about every aspect, at least for my daily use.</p>
+<p>The only con that is really at all noticeable when it comes to Navidrome - and, to be completely fair, this is likely just my own stupid fault - playlists start to take a while to load after a while. That being said, this is when you're adding, like, 2500+ songs to one playlist, so it should be perfectly fine for most people who aren't complete data hoarders. </p>
+<h1 id="jellyfin"><a href="https://jellyfin.org">Jellyfin</a></h1>
+<p>Now, Jellyfin is a bit of a recent addition to my repertoire; previously, I used to use Plex, as it was highly convenient for things like watch parties, or if I wanted to share bits and bobs with my family, or what have you. However, I started to look into alternatives around about the time that the Universal Wishlist feature was implemented; a means to shepard the user into using external services, some of which are even paid, after Plex itself already asks for a fee to have all of the features readily available to you. (Of course, I never paid for a Plex Pass, tight bitch that I am.)</p>
+<p>And it was on that search for alternatives that I ended up chancing upon Jellyfin; it effectively promised all that Plex did, except with one thing changed - absolutely no money required. You just start the server, feed it your media, and it will host said media with a nice-looking interface, posters, Rotten Tomatoes scores for your films and telly, all that good shit. To quote their own website - &quot;no strings attached... your media, your server, your way&quot; - that being a mantra that I would argue is highly essential in the self-hosting world. You should be able to own your media and watch in your own way.</p>
+<p>So, coming from Plex, what does Jellyfin offer?</p>
+<p>You know, like, everything Plex has, yeah? The nice interface? The theme songs playing when you click on programmes? The ability to share shit with other people? Hell, even the fuckin' DVR feature for the three people in the world who own an aerial that plugs into their PC? All of it's there, dude, and that shit works flawlessly.</p>
+<p>Jellyfin, in my limited time with it thus far, has given me very little in the way of issues - it has been a seamless switch to it from Plex, and it has performed infinitely better in most aspects, too. For example, remember when Plex used to make it piss-easy for you to install plugins before they started trying to grab as much cash from you as humanly possible? Jellyfin also has plugins, and has them in full force; more metadata providers, subtitle downloaders, and likely more... just I'm too lazy to have ran into them yet. As a result of me having access to lots of metadata providers, it was a lot easier for it to obtain metadata for my more obscure pieces of media (1940s Japanese cinema is a total bitch to scrape for), and as just a little cherry on top, the default, official Jellyfin player has controller support, which allows my slovenly arse to lie in bed watching Breaking Bad without me needing to lug my whole keyboard across the room.</p>
+<p>The only issue that I've ran into seems to be some sort of memory usage issue; after prolonged use, it may start to consume a lot of RAM - usually, it gets up to 4GB or so of RAM in my 16GB system at worst. However, this is something that could easily be fixed by using a cron job or similar to just restart the service every so often in order to flush it out.</p>
+<p>But, similarly to Navidrome, this issue is usually not overly noticeable, especially because the RAM usage issue never seems to exceed a quarter of your onboard memory - yes, still a large amount, and indeed inexcusable if you're using your main desktop PC to host a server, but if you have a separate server PC, or implement the aforementioned cron job band-aid fix, it'll likely be right as rain. </p>
+<h1 id="frontends">Frontends</h1>
+<p>Having covered most of the big players in terms of hosting your own stuff, what else could be left? Well, how's about some better, more private interfaces for some of the bigger sites?</p>
+<p>Due to these being.. well, simply just frontends for other sites, I haven't really got much input to give. This is more just a quick speed-listing than a comprehensive review of each of these; this isn't to say that they're lesser, of course. If anything, the fact that I have little to say about them should indicate to you that they do their job extremely fucking well, most of them exceeding that which they act as frontends for.</p>
+<h2 id="invidious"><a href="https://invidious.io/">Invidious</a></h2>
+<p>Arguably my most used site at this point, Invidious is a frontend for YouTube. It allows you all of the regular YouTube shite - accounts, notifications, subscriptions, the only real exception is that you can't make playlists through the platform, although that sounds hellish to implement, to be fair. </p>
+<p>It has a few nice added features - for one that's been an absolute boon, it integrates a download button with a quality selector onto the video page. One that isn't locked behind fucking YouTube Red, or YouTube Premium, or whatever they've decided to call it this week. </p>
+<p>And another amazing thing for my uses: you can use the URLs in MPV, as yt-dlp/youtube-dl will resolve them! And in addition to that, you can even grab RSS feeds for each channel that you like! It's really just a better way of using YouTube, so long as you can eschew the ability to create playlists.</p>
+<h2 id="nitter"><a href="https://nitter.net/">Nitter</a></h2>
+<p>A really fucking good Twitter frontend. It comes with support (and indeed implementation) of several themes, so that you may have the interface look exactly as you wish, on top of it allowing you to tweak more facets of the visuals. Nitter also allows for grabbing RSS feeds.</p>
+<p>Again, like I said - not a lot to say on this. It's just fucking great, okay?</p>
+<h1 id="closing-thoughts">Closing Thoughts</h1>
+<p>So, all in all, I hope that my ramblings have been at least somewhat coherent enough to convey that I really dig self-hosted shit, and I champion this as a great way to both maintain your privacy, and guarantee that in the event that any of your services goes down, you can just go fix it instead of being at the whims of big tech and their downtimes. </p>
+<p>I dunno, dog, I just wanted to fuckin ramble, okay? You're not <em>the police.</em></p>
+
+
+			</div>
+		</section>
+		<hr>
+		<center>
+		<p><i> runnin' since monday, the 28th of march, 2022. </p></i>
+		<p> this site brought to you by: a nerd </p>
+		<img src="/assets/footerart/arch.png" target="_blank" alt="arch" title="i use arch btw">
+		<img src="/assets/footerart/trans.png" target="_blank" alt="trans" title="wow.. youre transgenner?? cool....">
+		<img src="/assets/footerart/amd.gif" target="_blank" alt="amd" title="team red"><br> 
+		<img src="/assets/footerart/nvidia.gif" target="_blank" alt="nvidia" title="unfortunately i use their GPUs">
+		<img src="/assets/footerart/pride.gif" target="_blank" alt="pride" title="i'm lgbtq+ as fuck">
+		<img src="/assets/footerart/nice.gif" target="_blank" alt="nice" title="nice :)"><br>
+		<img src="/assets/footerart/linux80x15.png" target="_blank" alt="linux" title="dear god please use linux">
+		<img src="/assets/footerart/ps2.gif" target="_blank" alt="ps2" title="last good console">
+		<img src="/assets/footerart/spongebob.gif" target="_blank" alt="spongebob" title="sponge"><br>
+		<img src="/assets/footerart/cli.gif" target="_blank" alt="cli" title="commandline is best">
+		<img src="/assets/footerart/nirvana.gif" target="_blank" alt="nirvana" title="name three songs">
+		<img src="/assets/footerart/dreamcast.gif" target="_blank" alt="dreamcast" title="second-last good console"><br>
+		<img src="/assets/footerart/cringe.gif" target="_blank" alt="cringe" title="best way to be :)">
+		<img src="/assets/footerart/keysmash.gif" target="_blank" alt="keysmash" title="asldkjfasdkfjasdklfjsadjfknnxdnekuihrfknhkjsiduehwakrfdhnekilrhufuikhjskesh :)">
+		<img src="/assets/footerart/nightperson.gif" target="_blank" alt="night" title="the dumbass that never sleeps (tm)"><br>
+		<img src="/assets/footerart/bob.gif" target="_blank" alt="bob" title="bob">
+		<img src="/assets/footerart/REAL.gif" target="_blank" alt="REAL" title="REAL">
+
+		</center>
+		</body>
+</html>

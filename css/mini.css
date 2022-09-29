@@ -1,0 +1,62 @@
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: black;
+  z-index: 1;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: auto;
+  z-index: 2;
+  text-align: center; 
+  color: white;
+}
+
+a, p {
+  color: white;
+}
+
+.pfp {
+  margin-top: 2vh;
+  min-width: 100px;
+  max-width: 10vw;
+  border-radius: 50%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  border: 0;
+}
+
+.links a button {
+  hyphens: auto;
+  overflow-wrap: break-word;
+  white-space: normal;
+  background: #ffc40e;
+  color: black;
+  border: none;
+  margin: 5px;
+  padding: 2vh 10vw;
+  width: 60vw;
+  max-width: 300px;
+  cursor: pointer;
+  transition: background 0.1s, width 0.5s, height 0.5s;
+}
+
+.links a button:hover,
+.links a button:focus {
+  background: #ccc;
+}
