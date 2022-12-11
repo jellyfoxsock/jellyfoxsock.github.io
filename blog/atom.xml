@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title> - jelly&#x27;s inane ramblings</title>
-	<link href="https://jellyfox.moe/blog/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://jellyfox.moe/blog/"/>
+	<link href="https://jellyfoxx.github.io/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://jellyfoxx.github.io/blog/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-07-24T00:00:00+00:00</updated>
-	<id>https://jellyfox.moe/blog/atom.xml</id>
+	<id>https://jellyfoxx.github.io/blog/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Spondolix &amp; Videos</title>
 		<published>2022-07-24T00:00:00+00:00</published>
 		<updated>2022-07-24T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/donationannouncement/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/donationannouncement/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/donationannouncement/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/donationannouncement/</id>
 		<content type="html">&lt;p&gt;Hello! I&#x27;m writing a quick post to announce that - well, primarily, I&#x27;m not dead. Yet. After a few hospital visits and a minor-scale breakdown and some familial issues, I&#x27;m now out of the other side of it, although not entirely out of the woods. Apologies for my absence, but these conditions have been rather oppressive to put it lightly.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;give-me-your-money&quot;&gt;GIVE ME YOUR MONEY&lt;&#x2F;h2&gt;
 &lt;p&gt;Now, as you may tell by the new shiny link at the top of the site, as well as the oblique name for this article, I&#x27;ve set up a few donation options! It should, of course, go without saying, but I absolutely do not require any money and will never charge anybody for access to my content; Christ, even for &lt;em&gt;free,&lt;&#x2F;em&gt; this shit&#x27;s a rip-off, God, no. 
@@ -42,8 +42,8 @@ However, if you do want to sent a generous donation my way... well, first off, t
 		<title>Resident Evil 4 Remake Invoked The Exact Wrong Response From Me</title>
 		<published>2022-06-06T00:00:00+00:00</published>
 		<updated>2022-06-06T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/re4gotmedown/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/re4gotmedown/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/re4gotmedown/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/re4gotmedown/</id>
 		<content type="html">&lt;p&gt;Initially, when I watched the &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Wr4PGa1sHFQ&quot;&gt;State of Play on the 2nd of June&lt;&#x2F;a&gt;, and it opened with Resident Evil 4&#x27;s remake being finally announced formally, I was somewhat cautiously optimistic about it, and that was that.&lt;&#x2F;p&gt;
 &lt;p&gt;However, I woke up earlier today and realised something rather quite damning to that notion:&lt;&#x2F;p&gt;
 &lt;p&gt;&amp;quot;Wait a fucking second. I hated the Resident Evil 3 Remake.&amp;quot;&lt;&#x2F;p&gt;
@@ -94,8 +94,8 @@ Furthermore, I won&#x27;t look down on anybody who enjoys these sorts of games -
 		<title>The Namecheap Redemption Arc</title>
 		<published>2022-06-04T00:00:00+00:00</published>
 		<updated>2022-06-04T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/namecheapyaaay/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/namecheapyaaay/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/namecheapyaaay/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/namecheapyaaay/</id>
 		<content type="html">&lt;p&gt;So, dear reader, &lt;a href=&quot;&#x2F;blog&#x2F;namecheapaaaa&quot;&gt;last time&lt;&#x2F;a&gt; on the Eve Gets Fucked Chronicles, I was whining like a bitch about my problematic time with Gandi Mail. &lt;&#x2F;p&gt;
 &lt;p&gt;Okay, so you&#x27;ll be glad to hear that fuck all changed with the Gandi Mail part of that post.
 However!
@@ -115,8 +115,8 @@ One little addendum I would like to make, after the event: the Namecheap support
 		<title>Why I&#x27;m Absolutely Enraged By Gandi&#x27;s Mail Server Offerings: A Rope of Sand</title>
 		<published>2022-05-29T00:00:00+00:00</published>
 		<updated>2022-05-29T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/namecheapaaaa/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/namecheapaaaa/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/namecheapaaaa/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/namecheapaaaa/</id>
 		<content type="html">&lt;p&gt;Apologies for the quick and impromptu post in advance, however, I simply must express my annoyance at the precarious situation in which I find myself at this precise moment in time.&lt;&#x2F;p&gt;
 &lt;p&gt;Or, to put that in the way I actually would like to, I am extremely fucking pissed.&lt;&#x2F;p&gt;
 &lt;p&gt;So, let&#x27;s start the story at the beginning:&lt;&#x2F;p&gt;
@@ -141,8 +141,8 @@ I had been setting up my email address as jellyfox@mariostockimage.com on many a
 		<title>Rambling About Some Nice Self-Hosted Services</title>
 		<published>2022-05-27T00:00:00+00:00</published>
 		<updated>2022-05-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/selfhostedramble/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/selfhostedramble/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/selfhostedramble/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/selfhostedramble/</id>
 		<content type="html">&lt;p&gt;Oftentimes, you see people complaining about the quality of services offered by big corporations online. One of the most prevalent of these complaints is their servers, or rather their increasingly frequent downtime. Of course, no matter how good your server is, it will always need a wee bit of downtime, whether it be for maintenance, because the connection to it dropped, or whatever else. However, this situation, whilst understandable, is frustratingly frequent with services that many use for comfort - myself included. Such services include Discord, Spotify, Twitter - y&#x27;know. The usual suspects, really.&lt;&#x2F;p&gt;
 &lt;p&gt;So, as a bit of a follow-up to my &lt;a href=&quot;&#x2F;blog&#x2F;whymakeawebsite&quot;&gt;prior blog entry detailing why you should make your own website&lt;&#x2F;a&gt;, I&#x27;m going to have a bit of a ramble as to why you should give them all a two-finger salute and just do your own shit.&lt;&#x2F;p&gt;
 &lt;p&gt;&amp;quot;But Jelly,&amp;quot; I hear you exclaim from atop a three-necked goose, &amp;quot;why would I give myself more work when the apps are right there?&amp;quot;&lt;&#x2F;p&gt;
@@ -193,8 +193,8 @@ I had been setting up my email address as jellyfox@mariostockimage.com on many a
 		<title>Twitter&#x27;s Dead, Move On</title>
 		<published>2022-04-25T00:00:00+00:00</published>
 		<updated>2022-04-25T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/twitterisdead/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/twitterisdead/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/twitterisdead/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/twitterisdead/</id>
 		<content type="html">&lt;p&gt;So, as you may have read, &lt;a href=&quot;https:&#x2F;&#x2F;www.independent.co.uk&#x2F;tech&#x2F;twitter-elon-musk-buy-company-b2064819.html&quot;&gt;Elon Musk has finally suceeded in buying Twitter,&lt;&#x2F;a&gt; or at least it&#x27;s close enough for it to not matter. This being the case, I cannot recommend enough for you to &lt;em&gt;entirely stop using Twitter if it is possible.&lt;&#x2F;em&gt; Seriously. This motherfucker wants to privatise Twitter. He&#x27;s another Silicon Valley douche trying to ruin the Internet. And the best response to the shitshow is to not partake in it.&lt;&#x2F;p&gt;
 &lt;p&gt;If you don&#x27;t know why this is terrible, here&#x27;s a few to begin with:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -228,8 +228,8 @@ You can find me &lt;a href=&quot;https:&#x2F;&#x2F;wetdry.world&#x2F;@jellyfox&q
 		<title>Don&#x27;t Get Overwatch 2 (as if this needed to be said)</title>
 		<published>2022-04-22T00:00:00+00:00</published>
 		<updated>2022-04-22T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/overwatch2/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/overwatch2/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/overwatch2/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/overwatch2/</id>
 		<content type="html">&lt;p&gt;As you may have already seen, Activision-Blizzard is at it again. Overwatch 2 is on the horizon.&lt;&#x2F;p&gt;
 &lt;p&gt;And you absolutely should not be supporting it in the slightest.&lt;&#x2F;p&gt;
 &lt;p&gt;Seriously, I&#x27;ve put off writing this because I may inadvertently give it some publicity to the few of you who read these posts, but I just feel that I must say this as somebody who passionately enjoys games, and used to enjoy the first Overwatch back when I was still an egg with no concept of what a good video game actually is.&lt;&#x2F;p&gt;
@@ -276,8 +276,8 @@ This is like if Valve released a new Team Fortress 2 update, but instead of doin
 		<title>Yakuza 0: Stupidity, Seriousness, Parity and Life</title>
 		<published>2022-04-08T00:00:00+00:00</published>
 		<updated>2022-04-08T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/yakuza0/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/yakuza0/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/yakuza0/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/yakuza0/</id>
 		<content type="html">&lt;p&gt;Often, there are games with great stories, but terrible gameplay; the gameplay is really fun, yet the soundtrack isn&#x27;t there; the soundtrack tugs you off in bed, but the story goes for the &lt;a href=&quot;https:&#x2F;&#x2F;www.urbandictionary.com&#x2F;define.php?term=viatnamese+landmine&quot;&gt;Vietnamese Landmine&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;This is a deviation from that norm.&lt;&#x2F;p&gt;
 &lt;p&gt;Yakuza 0 is one hell of a game. Like, it fucking owns, so hard.&lt;&#x2F;p&gt;
@@ -375,8 +375,8 @@ It&#x27;s why I can get so easily invested in these games. Relatability. We may 
 		<title>Moving Day (for my web content that is)</title>
 		<published>2022-04-01T00:00:00+00:00</published>
 		<updated>2022-04-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/movingday/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/movingday/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/movingday/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/movingday/</id>
 		<content type="html">&lt;p&gt;Yes, as you may have seen, namely by the big piss-off message staring you in the face prior to you clicking on this link, I rather recently decided to take the plunge and port all of the stuff over from my old Neocities page. Now, you may be asking yourself: why?&lt;&#x2F;p&gt;
 &lt;p&gt;Why would I want to shift to self-hosting as opposed to using Neocities?&lt;&#x2F;p&gt;
 &lt;p&gt;The answer is shockingly simple, actually; it&#x27;s a bit easier for me.&lt;&#x2F;p&gt;
@@ -392,8 +392,8 @@ It&#x27;s why I can get so easily invested in these games. Relatability. We may 
 		<title>Why make a personal website? *</title>
 		<published>2021-12-29T00:00:00+00:00</published>
 		<updated>2021-12-29T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/whymakeawebsite/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/whymakeawebsite/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/whymakeawebsite/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/whymakeawebsite/</id>
 		<content type="html">&lt;p&gt;* Legacy blog.&lt;&#x2F;p&gt;
 &lt;p&gt;In the age of social media, why would (and should) you opt to make a website in lieu of major platforms? &lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;I do think that, in a purely conceptual sense, social media is one of the greatest inventions mankind could devise; a free-of-charge portal to other countries, other cultures, or Jim you met in the Red Lion that one night, without having to travel, all powered solely by the device on which you peruse it? That sounds absolutely amazing, on paper. Until you realise that free-of-charge will not remain so forever, whether that be paywalls, or worse, companies beginning to harvest your data for their own nefarious purposes. &lt;br&gt;&lt;br&gt;&lt;&#x2F;p&gt;
@@ -433,8 +433,8 @@ And the best part, it stimulates yer head-hole! With Twitter, shite&#x27;s alrea
 		<title>For the love of God, don&#x27;t support J.K. Rowling. *</title>
 		<published>2021-12-27T00:00:00+00:00</published>
 		<updated>2021-12-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/dontsupportjkrowling/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/dontsupportjkrowling/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/dontsupportjkrowling/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/dontsupportjkrowling/</id>
 		<content type="html">&lt;p&gt;* Legacy blog.&lt;&#x2F;p&gt;
 &lt;p&gt;This is something that I absolutely cannot stress enough: please, for fuck&#x27;s sake, do not support J.K. Rowling. She&#x27;s made more money than any of us will ever make by making one of the most generic, boring fantasy series of all time - a generic series which saw widespread success, as a &lt;i&gt; result &lt;&#x2F;i&gt; of it being so painfully uninspired that many of the tropes are interesting to people who have never read fantasy books. However, if you read the books with an educated eye (or one that&#x27;s seen basically any amount of other fantasy pieces), you will swiftly see a clichéd tale in which virtually nothing interesting happens. Yes, they have their highlights, but on the whole, &lt;i&gt; J.K. Rowling is a mediocre writer at best. &lt;&#x2F;i&gt; At least in my eyes.&lt;&#x2F;p&gt;
 &lt;p&gt;So, what&#x27;s that all got to do with &lt;i&gt;my&lt;&#x2F;i&gt; interests? I couldn&#x27;t give a flying fuck about some shitty book series that got way too popular, mostly because that happens so often that it&#x27;s not worth worrying about anymore, so why am I talking about this? &lt;br&gt;
@@ -449,8 +449,8 @@ But... still, there&#x27;s got to be a catch. There&#x27;s countless transphobes
 		<title>Fuck Windows. *</title>
 		<published>2021-12-27T00:00:00+00:00</published>
 		<updated>2021-12-27T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/fuckwindows/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/fuckwindows/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/fuckwindows/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/fuckwindows/</id>
 		<content type="html">&lt;p&gt;* Legacy blog.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows has been seen as the major mainstream OS since it&#x27;s inception in 1985, basically becoming an overnight success, only growing in popularity and usefulness with each iteration. This was, at first, deservedly so; Windows 95, 98 and XP were all widely used operating systems, making the once arcane world of computing accessible to a new audience, whilst not skimping on useful features for experienced power users. And all was good for this period of bliss.&lt;&#x2F;p&gt;
 &lt;p&gt;And then Vista hit.&lt;&#x2F;p&gt;
@@ -524,8 +524,8 @@ Wanna play games? Get a load of &lt;a href=&quot;https:&#x2F;&#x2F;lutris.net&#x
 		<title>Finding Yakuza *</title>
 		<published>2021-12-26T00:00:00+00:00</published>
 		<updated>2021-12-26T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://jellyfox.moe/blog/findingyakuza/" type="text/html"/>
-		<id>https://jellyfox.moe/blog/findingyakuza/</id>
+		<link rel="alternate" href="https://jellyfoxx.github.io/blog/findingyakuza/" type="text/html"/>
+		<id>https://jellyfoxx.github.io/blog/findingyakuza/</id>
 		<content type="html">&lt;p&gt;* Legacy blog.&lt;&#x2F;p&gt;
 &lt;p&gt;Ryu Ga Gotoku, otherwise known in my ASDA-shopping, pork-pie eating, tea drinking tongue as Yakuza.
 Yakuza is a series with which I have become increasingly infatuated over the last couple of years; it initially began merely as me saying &amp;quot;oh haha look at that funny bloke exploding that other bloke&#x27;s skull with a bench&amp;quot; quite some years ago when I first saw &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=yrvKjrPgeyM&quot;&gt;Yahtzee&#x27;s ZP episode&lt;&#x2F;a&gt; on Yakuza 4, and that was it on the matter. At least, for about... hm, seven-ish years? And then that song, that bloody song had to just get popular and send me down this rabbithole properly.&lt;&#x2F;p&gt;

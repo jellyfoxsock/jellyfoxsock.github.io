@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://jellyfox.moe/sitemap.xml
+Sitemap: https://jellyfoxx.github.io/sitemap.xml
